@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="infestationpotion"
+version="1.0.0"
+displayName="Potion of Infestation"
+description='''
+Backports the Minecraft 1.21 Potion of Infestation to 1.16.5:
+Infested effect, potion, splash, lingering and tipped arrow.
+Brew: Awkward Potion + Stone.
+'''
+
+[[dependencies.infestationpotion]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.infestationpotion]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
